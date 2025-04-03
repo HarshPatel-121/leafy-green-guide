@@ -1,3 +1,5 @@
+import { CropCategory, Crop } from './crops';
+
 export type CropCategory = 'vegetables' | 'fruits' | 'flowers' | 'others';
 
 export interface Fertilizer {
@@ -33,7 +35,7 @@ export const categories = [
     id: 'vegetables',
     name: 'Vegetables',
     description: 'Nutritious edible plants grown for consumption',
-    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
+    imageUrl: 'https://media.istockphoto.com/id/139496979/photo/assortment-of-fruits-and-vegetables-background.jpg?s=1024x1024&w=is&k=20&c=KcFM8yH2vc3SoAIa0CbX2lVuEA61OBgtKFB1Da8um00=',
   },
   {
     id: 'fruits',
