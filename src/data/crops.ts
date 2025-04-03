@@ -1,4 +1,3 @@
-
 export type CropCategory = 'vegetables' | 'fruits' | 'flowers' | 'others';
 
 export interface Fertilizer {
@@ -34,13 +33,13 @@ export const categories = [
     id: 'vegetables',
     name: 'Vegetables',
     description: 'Nutritious edible plants grown for consumption',
-    imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9',
+    imageUrl: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb',
   },
   {
     id: 'fruits',
     name: 'Fruits',
     description: 'Sweet and nutritious edible plant structures',
-    imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07',
+    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
   },
   {
     id: 'flowers',
@@ -52,7 +51,7 @@ export const categories = [
     id: 'others',
     name: 'Others',
     description: 'Herbs, shrubs, and other useful plants',
-    imageUrl: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86',
+    imageUrl: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716',
   },
 ];
 
@@ -114,7 +113,7 @@ const crops: Crop[] = [
     name: 'Cucumber',
     category: 'vegetables',
     description: 'A refreshing, water-rich vegetable perfect for salads and pickling.',
-    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
+    imageUrl: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb',
     growthGuide: {
       sowingTime: 'After all danger of frost has passed, soil temperature at least 60°F',
       wateringSchedule: 'Consistent moisture, 1-2 inches per week',
@@ -165,7 +164,7 @@ const crops: Crop[] = [
     name: 'Apple',
     category: 'fruits',
     description: 'A crisp, sweet fruit grown on deciduous trees.',
-    imageUrl: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86',
+    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
     growthGuide: {
       sowingTime: 'Plant dormant trees in early spring or late fall',
       wateringSchedule: 'Deep watering weekly in first year, then as needed',
