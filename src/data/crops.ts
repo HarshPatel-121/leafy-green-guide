@@ -33,7 +33,7 @@ export const categories = [
     id: 'vegetables',
     name: 'Vegetables',
     description: 'Nutritious edible plants grown for consumption',
-    imageUrl: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb',
+    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
   },
   {
     id: 'fruits',
@@ -113,7 +113,7 @@ const crops: Crop[] = [
     name: 'Cucumber',
     category: 'vegetables',
     description: 'A refreshing, water-rich vegetable perfect for salads and pickling.',
-    imageUrl: 'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb',
+    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
     growthGuide: {
       sowingTime: 'After all danger of frost has passed, soil temperature at least 60°F',
       wateringSchedule: 'Consistent moisture, 1-2 inches per week',
@@ -266,7 +266,7 @@ const crops: Crop[] = [
     name: 'Basil',
     category: 'others',
     description: 'A fragrant culinary herb used in many cuisines.',
-    imageUrl: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9',
+    imageUrl: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716',
     growthGuide: {
       sowingTime: 'After all danger of frost, soil temperature at least 60°F',
       wateringSchedule: 'Regular watering, keeping soil consistently moist but not waterlogged',

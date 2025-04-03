@@ -1,7 +1,6 @@
 
 import { categories } from '@/data/crops';
 import CategoryCard from '@/components/CategoryCard';
-import SearchBar from '@/components/SearchBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -24,9 +23,6 @@ const Home = () => {
               <p className="text-lg md:text-xl mb-6">
                 Your complete resource for growing beautiful and healthy plants
               </p>
-              <div className="flex justify-center">
-                <SearchBar className="max-w-xl" />
-              </div>
             </div>
           </div>
         </section>
