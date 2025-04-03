@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our garden app
+				garden: {
+					'green-light': '#8BC34A',
+					'green-dark': '#4CAF50',
+					'brown': '#795548',
+					'soil': '#5D4037',
+					'cream': '#F5F5DC',
+					'leaf': '#66BB6A',
+					'sky': '#03A9F4',
+					'sun': '#FFC107'
 				}
 			},
 			borderRadius: {
