@@ -7,7 +7,7 @@ export const vegetables: Crop[] = [
     name: 'Tomato',
     category: 'vegetables',
     description: 'A juicy, nutritious fruit commonly used as a vegetable in cooking.',
-    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
+    imageUrl: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg',
     growthGuide: {
       sowingTime: 'Early spring, 6-8 weeks before last frost',
       wateringSchedule: 'Regular watering, 1-2 inches per week',
@@ -58,7 +58,7 @@ export const vegetables: Crop[] = [
     name: 'Cucumber',
     category: 'vegetables',
     description: 'A refreshing, water-rich vegetable perfect for salads and pickling.',
-    imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843',
+    imageUrl: 'https://images.pexels.com/photos/2329440/pexels-photo-2329440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     growthGuide: {
       sowingTime: 'After all danger of frost has passed, soil temperature at least 60°F',
       wateringSchedule: 'Consistent moisture, 1-2 inches per week',

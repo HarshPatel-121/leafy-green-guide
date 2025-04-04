@@ -7,7 +7,7 @@ export const fruits: Crop[] = [
     name: 'Apple',
     category: 'fruits',
     description: 'A crisp, sweet fruit grown on deciduous trees.',
-    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
+    imageUrl: 'https://as2.ftcdn.net/v2/jpg/02/52/93/81/1000_F_252938192_JQQL8VoqyQVwVB98oRnZl83epseTVaHe.jpg',
     growthGuide: {
       sowingTime: 'Plant dormant trees in early spring or late fall',
       wateringSchedule: 'Deep watering weekly in first year, then as needed',

@@ -12,7 +12,7 @@ export const categories: Category[] = [
     id: 'fruits',
     name: 'Fruits',
     description: 'Sweet and nutritious edible plant structures',
-    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
+    imageUrl: 'https://media.istockphoto.com/id/1310236336/photo/assortment-of-fresh-exotic-fruits-as-background-top-view.jpg?s=1024x1024&w=is&k=20&c=AnOfSJwtGyk9kctrdrnJlzV4NWWbj1_eCv5PkIQ3rYQ=',
   },
   {
     id: 'flowers',
@@ -24,6 +24,6 @@ export const categories: Category[] = [
     id: 'others',
     name: 'Others',
     description: 'Herbs, shrubs, and other useful plants',
-    imageUrl: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716',
+    imageUrl: 'https://media.istockphoto.com/id/1151784210/photo/ripe-rice-field-and-sky-background-at-sunset.jpg?s=2048x2048&w=is&k=20&c=R_GmEOH6scAuR3VwRHcDuWMKTOkG7CWhhADKsq_ErFY=',
   },
 ];

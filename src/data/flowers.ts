@@ -7,7 +7,7 @@ export const flowers: Crop[] = [
     name: 'Rose',
     category: 'flowers',
     description: 'A beloved ornamental flower known for its beauty and fragrance.',
-    imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07',
+    imageUrl: 'https://as2.ftcdn.net/v2/jpg/01/70/42/73/1000_F_170427324_r1JPenHS2GUjEQgpK14mv3okVvMXZ2OG.jpg',
     growthGuide: {
       sowingTime: 'Plant dormant bare-root roses in early spring or fall',
       wateringSchedule: 'Deep watering 1-2 times weekly at base of plant',
