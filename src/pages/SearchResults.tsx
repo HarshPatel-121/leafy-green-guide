@@ -7,7 +7,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, SearchIcon } from 'lucide-react';
-import SearchBar from '@/components/SearchBar';
 
 const SearchResults = () => {
   const [searchParams] = useSearchParams();
@@ -46,11 +45,6 @@ const SearchResults = () => {
           </Button>
         </div>
         
-        {/* Search Bar */}
-        <div className="mb-8">
-          <SearchBar placeholder="Refine your search..." />
-        </div>
-        
         {/* Results */}
         {results.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -67,14 +61,10 @@ const SearchResults = () => {
         ) : (
           <div className="text-center py-12 border rounded-lg">
             <SearchIcon className="mx-auto h-12 w-12 text-muted-foreground mb-4" />
-            <h2 className="text-xl font-medium mb-2">No results found</h2>
+            <h2 className="text-xl font-medium mb-2">This item is not in list</h2>
             <p className="text-muted-foreground mb-6">
               We couldn't find any crops that match your search.
             </p>
-            <SearchBar 
-              placeholder="Try a different search..." 
-              className="max-w-md mx-auto"
-            />
           </div>
         )}
       </main>
