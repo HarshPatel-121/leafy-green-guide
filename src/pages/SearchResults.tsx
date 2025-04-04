@@ -59,7 +59,7 @@ const SearchResults = () => {
             ))}
           </div>
         ) : (
-          <div className="text-center py-12 border rounded-lg">
+          <div className="text-center py-12 border rounded-lg bg-background shadow-sm">
             <SearchIcon className="mx-auto h-12 w-12 text-muted-foreground mb-4" />
             <h2 className="text-xl font-medium mb-2">This item is not in list</h2>
             <p className="text-muted-foreground mb-6">

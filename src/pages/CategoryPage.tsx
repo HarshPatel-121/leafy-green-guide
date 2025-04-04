@@ -50,15 +50,15 @@ const CategoryPage = () => {
       <main className="flex-1">
         {/* Category Hero */}
         <section className="relative">
-          <div className="absolute inset-0 bg-black/50 z-10" />
+          <div className="absolute inset-0 bg-black/60 z-10" />
           <div 
-            className="h-[300px] bg-cover bg-center"
+            className="h-[350px] bg-cover bg-center"
             style={{ backgroundImage: `url(${category.imageUrl})` }}
           />
           <div className="absolute inset-0 flex items-center justify-center z-20">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold mb-2">{category.name}</h1>
-              <p className="text-lg md:text-xl">{category.description}</p>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">{category.name}</h1>
+              <p className="text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md">{category.description}</p>
             </div>
           </div>
         </section>
@@ -78,7 +78,7 @@ const CategoryPage = () => {
           </div>
           
           {crops.length > 0 ? (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 pb-12">
               {crops.map((crop) => (
                 <CropCard
                   key={crop.id}
